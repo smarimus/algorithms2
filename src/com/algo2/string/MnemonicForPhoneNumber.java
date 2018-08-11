@@ -8,7 +8,7 @@ public class MnemonicForPhoneNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		List<String> result = phoneMnemonic("233");
+		List<String> result = phoneMnemonic("23");
 		System.out.println(result.size());
 		result.forEach(System.out::println);
 
