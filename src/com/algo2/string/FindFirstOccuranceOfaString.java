@@ -29,7 +29,5 @@ public class FindFirstOccuranceOfaString {
 			}
 		}
 		return result;
-	}
-
-	
+	}	
 }
