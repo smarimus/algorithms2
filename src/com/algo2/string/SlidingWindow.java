@@ -12,7 +12,13 @@ public class SlidingWindow {
 		String fullString = "this is a test string";
 		String pattern = "t stri";
 		
-		System.out.println(minWindow(fullString, pattern));
+		//System.out.println(minWindow(fullString, pattern));
+		
+		System.out.println(pattern.charAt(5));
+		
+		pattern = null;
+		System.out.println(pattern);
+		System.out.println(pattern.charAt(5));
 	}
 	
 	/*
