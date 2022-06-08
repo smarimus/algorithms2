@@ -3,6 +3,8 @@ package com.algo2.array;
 import java.util.Arrays;
 import java.util.List;
 
+import javax.swing.event.ListSelectionEvent;
+
 public class DeleteDuplicates {
 
 	public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class DeleteDuplicates {
 		Integer arr[] = {2,3,5,5,7,11,11,11,13};
 		List<Integer> a = Arrays.asList(arr);
 		System.out.println(deleteDuplicates(a));
-
+		
 	}
 
 	// .Returns the number of valid entries after deletion.
